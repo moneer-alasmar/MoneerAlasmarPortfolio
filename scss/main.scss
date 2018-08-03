@@ -107,6 +107,8 @@ main {
     .tech-icons {
       text-align: center;
       i {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
         font-size: 15vh;
         &:hover {
           color: $secondary-color;
@@ -132,15 +134,113 @@ main {
     .modal-content {
       background-color: $primary-color;
       border-bottom: $secondary-color 5px solid;
+      .card {
+        background-color: $primary-color;
+        h5 {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+    h3 {
+      text-decoration: underline;
+      text-decoration-color: $secondary-color;
+      margin-bottom: 1vh;
     }
   }
 
   .job-2 {
     grid-area: job2;
+    .tech-icons {
+      text-align: center;
+      i {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        font-size: 15vh;
+        &:hover {
+          color: $secondary-color;
+          @include easeOut;
+        }
+      }
+    }
+    .modal-start {
+      display: flex;
+      justify-content: center;
+      #skillsBtn {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        background-color: $secondary-color;
+        &:hover {
+          background-color: #fff;
+          border: $secondary-color 2px solid;
+          color: $secondary-color;
+          @include easeOut;
+        }
+      }
+    }
+    .modal-content {
+      background-color: $primary-color;
+      border-bottom: $secondary-color 5px solid;
+      .card {
+        background-color: $primary-color;
+        h5 {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+    h3 {
+      text-decoration: underline;
+      text-decoration-color: $secondary-color;
+      margin-bottom: 1vh;
+    }
   }
 
   .job-3 {
     grid-area: job3;
+    .tech-icons {
+      text-align: center;
+      i {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        font-size: 15vh;
+        &:hover {
+          color: $secondary-color;
+          @include easeOut;
+        }
+      }
+    }
+    .modal-start {
+      display: flex;
+      justify-content: center;
+      #skillsBtn {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        background-color: $secondary-color;
+        &:hover {
+          background-color: #fff;
+          border: $secondary-color 2px solid;
+          color: $secondary-color;
+          @include easeOut;
+        }
+      }
+    }
+    .modal-content {
+      background-color: $primary-color;
+      border-bottom: $secondary-color 5px solid;
+      .card {
+        background-color: $primary-color;
+        h5 {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+    h3 {
+      text-decoration: underline;
+      text-decoration-color: $secondary-color;
+      margin-bottom: 1vh;
+    }
   }
 
   .job {

@@ -175,6 +175,8 @@ main {
     .about-info .job-1 .tech-icons {
       text-align: center; }
       .about-info .job-1 .tech-icons i {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
         font-size: 15vh; }
         .about-info .job-1 .tech-icons i:hover {
           color: #b366ff;
@@ -194,10 +196,85 @@ main {
     .about-info .job-1 .modal-content {
       background-color: #444;
       border-bottom: #b366ff 5px solid; }
+      .about-info .job-1 .modal-content .card {
+        background-color: #444; }
+        .about-info .job-1 .modal-content .card h5 {
+          text-decoration: none;
+          color: #fff; }
+    .about-info .job-1 h3 {
+      text-decoration: underline;
+      text-decoration-color: #b366ff;
+      margin-bottom: 1vh; }
   .about-info .job-2 {
     grid-area: job2; }
+    .about-info .job-2 .tech-icons {
+      text-align: center; }
+      .about-info .job-2 .tech-icons i {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        font-size: 15vh; }
+        .about-info .job-2 .tech-icons i:hover {
+          color: #b366ff;
+          transition: all 0.5s ease-out; }
+    .about-info .job-2 .modal-start {
+      display: flex;
+      justify-content: center; }
+      .about-info .job-2 .modal-start #skillsBtn {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        background-color: #b366ff; }
+        .about-info .job-2 .modal-start #skillsBtn:hover {
+          background-color: #fff;
+          border: #b366ff 2px solid;
+          color: #b366ff;
+          transition: all 0.5s ease-out; }
+    .about-info .job-2 .modal-content {
+      background-color: #444;
+      border-bottom: #b366ff 5px solid; }
+      .about-info .job-2 .modal-content .card {
+        background-color: #444; }
+        .about-info .job-2 .modal-content .card h5 {
+          text-decoration: none;
+          color: #fff; }
+    .about-info .job-2 h3 {
+      text-decoration: underline;
+      text-decoration-color: #b366ff;
+      margin-bottom: 1vh; }
   .about-info .job-3 {
     grid-area: job3; }
+    .about-info .job-3 .tech-icons {
+      text-align: center; }
+      .about-info .job-3 .tech-icons i {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        font-size: 15vh; }
+        .about-info .job-3 .tech-icons i:hover {
+          color: #b366ff;
+          transition: all 0.5s ease-out; }
+    .about-info .job-3 .modal-start {
+      display: flex;
+      justify-content: center; }
+      .about-info .job-3 .modal-start #skillsBtn {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        background-color: #b366ff; }
+        .about-info .job-3 .modal-start #skillsBtn:hover {
+          background-color: #fff;
+          border: #b366ff 2px solid;
+          color: #b366ff;
+          transition: all 0.5s ease-out; }
+    .about-info .job-3 .modal-content {
+      background-color: #444;
+      border-bottom: #b366ff 5px solid; }
+      .about-info .job-3 .modal-content .card {
+        background-color: #444; }
+        .about-info .job-3 .modal-content .card h5 {
+          text-decoration: none;
+          color: #fff; }
+    .about-info .job-3 h3 {
+      text-decoration: underline;
+      text-decoration-color: #b366ff;
+      margin-bottom: 1vh; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
