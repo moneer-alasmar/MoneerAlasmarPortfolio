@@ -1,5 +1,5 @@
-@import 'config';
-@import 'menu';
+@import "config";
+@import "menu";
 
 * {
   box-sizing: border-box;
@@ -12,12 +12,14 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
 // H TAGS
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 400;
 
@@ -84,8 +86,8 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-  'bioimage bio bio'
-  'job1 job2 job3';
+    "bioimage bio bio"
+    "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 
   .bio-img {
@@ -94,24 +96,53 @@ main {
     border-radius: 50%;
     border: $secondary-color 3px solid;
   }
-  
+
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
   }
-  
+
   .job-1 {
-    grid-area: job1
+    grid-area: job1;
+    .tech-icons {
+      text-align: center;
+      i {
+        font-size: 15vh;
+        &:hover {
+          color: $secondary-color;
+          @include easeOut;
+        }
+      }
+    }
+    .modal-start {
+      display: flex;
+      justify-content: center;
+      #skillsBtn {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        background-color: $secondary-color;
+        &:hover {
+          background-color: #fff;
+          border: $secondary-color 2px solid;
+          color: $secondary-color;
+          @include easeOut;
+        }
+      }
+    }
+    .modal-content {
+      background-color: $primary-color;
+      border-bottom: $secondary-color 5px solid;
+    }
   }
-  
+
   .job-2 {
-    grid-area: job2
+    grid-area: job2;
   }
-  
+
   .job-3 {
-    grid-area: job3
+    grid-area: job3;
   }
-  
+
   .job {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
@@ -136,7 +167,6 @@ main {
     }
   }
 }
-
 
 // CONTACT PAGE
 .boxes {
@@ -163,8 +193,6 @@ main {
     }
   }
 }
-
-
 
 // BUTTON STYLES
 .btn {
@@ -200,4 +228,4 @@ main {
   height: 60px;
 }
 
-@import 'mobile';
+@import "mobile";

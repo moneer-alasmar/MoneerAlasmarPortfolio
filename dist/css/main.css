@@ -98,7 +98,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpeg);
@@ -114,12 +114,18 @@ body {
       background: rgba(68, 68, 68, 0.8);
       z-index: -1; }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 400; }
-  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
     font-size: 6rem; }
-  h1.sm-heading, h2.sm-heading, h3.sm-heading {
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
@@ -154,7 +160,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-img {
     grid-area: bioimage;
@@ -166,6 +172,28 @@ main {
     font-size: 1.5rem; }
   .about-info .job-1 {
     grid-area: job1; }
+    .about-info .job-1 .tech-icons {
+      text-align: center; }
+      .about-info .job-1 .tech-icons i {
+        font-size: 15vh; }
+        .about-info .job-1 .tech-icons i:hover {
+          color: #b366ff;
+          transition: all 0.5s ease-out; }
+    .about-info .job-1 .modal-start {
+      display: flex;
+      justify-content: center; }
+      .about-info .job-1 .modal-start #skillsBtn {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        background-color: #b366ff; }
+        .about-info .job-1 .modal-start #skillsBtn:hover {
+          background-color: #fff;
+          border: #b366ff 2px solid;
+          color: #b366ff;
+          transition: all 0.5s ease-out; }
+    .about-info .job-1 .modal-content {
+      background-color: #444;
+      border-bottom: #b366ff 5px solid; }
   .about-info .job-2 {
     grid-area: job2; }
   .about-info .job-3 {
