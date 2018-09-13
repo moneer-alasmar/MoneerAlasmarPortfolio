@@ -215,7 +215,7 @@ main {
   .work-list {
     text-align: left;
     li {
-      font-size: 3vh;
+      font-size: 20px;
       &:hover {
         color: $secondary-color;
         @include easeOut;
