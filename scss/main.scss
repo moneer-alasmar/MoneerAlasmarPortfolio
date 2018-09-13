@@ -149,6 +149,23 @@ main {
     }
   }
 
+  .language-list {
+    list-style-type: none;
+    text-align: left;
+    li {
+      font-size: 24px;
+      &:hover {
+        color: $secondary-color;
+        @include easeOut;
+      }
+    }
+  }
+
+  #dbTitle {
+    text-decoration: underline;
+    text-decoration-color: $secondary-color;
+  }
+
   .job-2 {
     grid-area: job2;
     .tech-icons {
@@ -193,6 +210,16 @@ main {
       text-decoration: underline;
       text-decoration-color: $secondary-color;
       margin-bottom: 1vh;
+    }
+  }
+  .work-list {
+    text-align: left;
+    li {
+      font-size: 3vh;
+      &:hover {
+        color: $secondary-color;
+        @include easeOut;
+      }
     }
   }
 
@@ -248,6 +275,12 @@ main {
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
+}
+
+#accordionLinks {
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: $secondary-color;
 }
 
 // APPLICATIONS/PROJECTS

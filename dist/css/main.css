@@ -205,6 +205,17 @@ main {
       text-decoration: underline;
       text-decoration-color: #b366ff;
       margin-bottom: 1vh; }
+  .about-info .language-list {
+    list-style-type: none;
+    text-align: left; }
+    .about-info .language-list li {
+      font-size: 24px; }
+      .about-info .language-list li:hover {
+        color: #b366ff;
+        transition: all 0.5s ease-out; }
+  .about-info #dbTitle {
+    text-decoration: underline;
+    text-decoration-color: #b366ff; }
   .about-info .job-2 {
     grid-area: job2; }
     .about-info .job-2 .tech-icons {
@@ -240,6 +251,13 @@ main {
       text-decoration: underline;
       text-decoration-color: #b366ff;
       margin-bottom: 1vh; }
+  .about-info .work-list {
+    text-align: left; }
+    .about-info .work-list li {
+      font-size: 3vh; }
+      .about-info .work-list li:hover {
+        color: #b366ff;
+        transition: all 0.5s ease-out; }
   .about-info .job-3 {
     grid-area: job3; }
     .about-info .job-3 .tech-icons {
@@ -279,6 +297,11 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #b366ff 5px solid; }
+
+#accordionLinks {
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: #b366ff; }
 
 .apps {
   display: grid;
