@@ -283,8 +283,9 @@ main#home h1 {
   text-align: center;
 }
 .about-info .job-2 .tech-icons i {
-  padding-top: 4vh;
-  padding-bottom: 5.5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin-bottom: 20px;
   font-size: 15vh;
 }
 .about-info .job-2 .tech-icons i:hover {
