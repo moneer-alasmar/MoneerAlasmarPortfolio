@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- IMPORTING FONT AWESOME ICONS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <!-- IMPORTING BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <!-- IMPORTING CSS -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Moneer Alasmar 2018</title>
+
+</head>
+
+<body>
+  <!-- HEADER AND NAV -->
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item current">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="apps.html" class="nav-link">Apps</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN DISPLAY -->
+  <main id="about">
+    <h1 class="lg-heading">
+      About
+      <span class="text-secondary">Me</span>
+    </h1>
+
+    <h2 class="sm-heading">
+      Let me tell you a few things...
+    </h2>
+
+    <div class="about-info">
+      <img src="img/portrait.jpg" alt="Moneer Alasmar" class="bio-img">
+
+      <!-- BIO -->
+      <div class="bio">
+        <h3 class="text-secondary">
+          BIO
+        </h3>
+        <p>Hi, my name's Moneer Alasmar</p>
+        <p>I'm an innovative software engineer offering 3+ years of experience in the full software development
+          lifecycle. When
+          I'm not coding I enjoy learning about and enhancing my photography, hiking and spending time with my wife!
+          You'll
+          find more information about my technical skills below, just click to read more!</p>
+      </div>
+
+      <!-- SKILL SET BOXES -->
+
+      <!-- JOB BOX 1 -->
+      <div class="job job-1">
+        <h3>Technical Skills</h3>
+        <h6>Languages, frameworks, etc.</h6>
+        <div class="tech-icons">
+          <i class="fas fa-desktop"></i>
+
+          <!-- MODAL FOR SKILL SET -->
+          <div class="modal-start">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary  btn-lg" data-toggle="modal" id="skillsBtn" data-target="#SkillsModalLong">
+              Read More...
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="SkillsModalLong" tabindex="-1" role="dialog" aria-labelledby="SkillsModalLongTitle"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Technical Skills</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- SKILLS ACCORDION -->
+                    <div id="accordion">
+                      <div class="card text-center">
+                        <div class="card-header" id="headingOne">
+                          <h3 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                              aria-expanded="true" aria-controls="collapseOne">
+                              Languages
+                            </a>
+                          </h3>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body">
+                            <ul class="language-list">
+                              <li>Javascript</li>
+                              <li>Python</li>
+                              <li>Ruby</li>
+                              <li>HTML5</li>
+                              <li>CSS3/SASS</li>
+                              <li>C#</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                              aria-expanded="false" aria-controls="collapseTwo">
+                              Frameworks
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                          <div class="card-body">
+                            <ul class="language-list">
+                              <li>Angular</li>
+                              <li>Django</li>
+                              <li>Ruby On Rails</li>
+                              <li>Flask</li>
+                              <li>ASP.NET</li>
+                              <li>Ionic</li>
+                              <li>Express.io</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                              aria-expanded="false" aria-controls="collapseThree">
+                              Databases
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                          <div class="card-body">
+                            <h5 id="dbTitle" class="text-left">SQL</h5>
+                            <ul class="language-list">
+                              <li>MySQL</li>
+                              <li>SQLite</li>
+                              <li>PostgresQL</li>
+                            </ul>
+                            <h5 id="dbTitle" class="text-left">NoSQL</h5>
+                            <ul class="language-list">
+                              <li>MongoDB</li>
+                              <li>Mongoose.js</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link" data-toggle="collapse" data-target="#collapseFour"
+                              aria-expanded="true" aria-controls="collapseFour">
+                              Development Tools
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body">
+                            <ul class="language-list">
+                              <li>Node.js</li>
+                              <li>Microsoft Visual Studio Pro</li>
+                              <li>Sublime Text</li>
+                              <li>Git/GitHub</li>
+                              <li>GitBash</li>
+                              <li>Sublime Text</li>
+                              <li>jQuery</li>
+                              <li>Bootstrap</li>
+                              <li>MaterializeCSS</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link" data-toggle="collapse" data-target="#collapseFive"
+                              aria-expanded="true" aria-controls="collapseFive">
+                              Deployment Tools
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body">
+                            <ul class="language-list">
+                              <li>Nginx</li>
+                              <li>GUnicorn</li>
+                              <li>Amazon AWS</li>
+                              <li>Parcel Bundler</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link" data-toggle="collapse" data-target="#collapseSix"
+                              aria-expanded="true" aria-controls="collapseSix">
+                              Methodologies
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body">
+                            <ul class="language-list">
+                              <li>MVC-Model View Controller</li>
+                              <li>MTV-Model Template View</li>
+                              <li>TDD-Test Driven Development</li>
+                              <li>OOP-Object Oriented Programming</li>
+                              <li>RESTful routing</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JOB BOX 2 -->
+      <div class="job job-2">
+        <h3>Experience</h3>
+        <h6>Work, community-work, etc.</h6>
+        <div class="tech-icons">
+          <i class="fas fa-user-tie"></i>
+
+          <!-- MODAL FOR SKILL SET -->
+          <div class="modal-start">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary  btn-lg" data-toggle="modal" id="skillsBtn" data-target="#WorkModalLong">
+              Read More...
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="WorkModalLong" tabindex="-1" role="dialog" aria-labelledby="WorkModalLongTitle"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Professional Experience</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                    <!-- SKILLS ACCORDION -->
+                    <div id="accordion2">
+                      <div class="card text-left">
+                        <div class="card-header" id="headingOne">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link" data-toggle="collapse" data-target="#collapseWorkOne"
+                              aria-expanded="true" aria-controls="collapseWorkOne">
+                              Teacher Assistant - Coding Dojo
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapseWorkOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion2">
+                          <div class="card-body">
+                            <ul class="work-list">
+                              <li>March 2018 - Current</li>
+                              <li>Burbank CA</li>
+                            </ul>
+                            <p>Assisting students during their time in the bootcamp, responsibilities included: </p>
+                            <ul class="work-list">
+                              <li>Work closely with students instructing concepts and assisting with daily goals.</li>
+                              <li>Design and develop exercises tailored to the style of certain students.</li>
+                              <li>Assist with all languages taught during the bootcamp including; Python, Javascript,
+                                CSS, jQuery,
+                                Ruby and the MEAN tech stack.</li>
+                              <li>Manage closing procedures and secure campus after closing hours.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseWorkTwo"
+                              aria-expanded="false" aria-controls="collapseWorkTwo">
+                              General Manager - Dennys
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseWorkTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion2">
+                          <div class="card-body">
+                            <ul class="work-list">
+                              <li>December 2014 - 2017</li>
+                              <li>Bishop CA</li>
+                            </ul>
+                            <p>Responsible for the overall restaurant operations execution and management of staff,
+                              controllable
+                              profit plan achievement, guest count growth, and sales building activities. Additional
+                              responsibilities
+                              include: </p>
+                            <ul class="work-list">
+                              <li>A focus on employee selection, retention, continuous operational improvement and a
+                                strong commitment
+                                to hospitality and guest satisfaction.</li>
+                              <li>Prepare financial and operational reports and schedules, analyze data and develop
+                                solutions
+                                to ensure operating goals are achieved.</li>
+                              <li>Direct restaurant operations with responsibility for guest service, brand standards
+                                execution
+                                and employee training</li>
+                              <li>Ensure timely implementation, training and ongoing execution of all corporate
+                                initiatives and
+                                marketing promotions</li>
+                              <li>Developed Restaurant Managers and hourly employees through corporate training
+                                programs, individual
+                                development plans and assignments; provided coaching and constructive feedback to
+                                employees
+                                as needed</li>
+                              <li>Attract, hire, on board and retain the best hourly talent to meet staffing
+                                requirements and
+                                guest service standards</li>
+                              <li>Develop and execute the local store marketing plan to build relationships with civic,
+                                business,
+                                school, and professional organizations to drive sales and guest count</li>
+                              <li>Monitor that proper security procedures are in place to protect employees, guests and
+                                company
+                                assets
+                              </li>
+                              <li>Create and maintain an enjoyable and respectful environment for our guests and
+                                employees</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseWorkThree"
+                              aria-expanded="false" aria-controls="collapseWorkThree">
+                              Manager/Sys. Admin Assistant - AlPetra LLC
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseWorkThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion2">
+                          <div class="card-body">
+                            <ul class="work-list">
+                              <li>December 2008 – 2014</li>
+                              <li>Los Angeles CA</li>
+                            </ul>
+                            <p>Responsible for providing support with technologies to management and employees. Main
+                              responsibilities included: </p>
+                            <ul class="work-list">
+                              <li>Learn new software prior to company rollout and create clear user guides to be used
+                                by staff.</li>
+                              <li>Installed and setup any new hardware including CCTVs, Register Software, local area
+                                networks.</li>
+                              <li>Managed various finances ranging from payroll to annual reports.</li>
+                              <li>Participated in the hiring, managing, and training processes of staff members thus
+                                reducing employee turnover rates.</li>
+                              <li>Worked with ownership to develop strategies for business improvement.
+                              </li>
+                              <li>Worked with System Administrator to develop C# applications for tracking expenses
+                                specific to each restaurant.</li>
+                              <li>Worked with System Administrator to develop online scheduling system with ability for
+                                admins to make adjustments. This greatly improved attendance performance.</li>
+                              <li>Created online issue tracking system for managers to view and update status on
+                                various problems across their restaurants.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JOB BOX 3 -->
+      <div class="job job-3">
+        <h3>Education</h3>
+        <h6>School, college, etc.</h6>
+        <div class="tech-icons">
+          <i class="fas fa-graduation-cap"></i>
+          <!-- MODAL FOR SKILL SET -->
+          <div class="modal-start">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary  btn-lg" data-toggle="modal" id="skillsBtn" data-target="#EducationModalLong">
+              Read More...
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="EducationModalLong" tabindex="-1" role="dialog" aria-labelledby="EducationModalLongTitle"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Education</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- SKILLS ACCORDION -->
+                    <div id="accordion3">
+                      <div class="card text-center">
+                        <div class="card-header" id="headingOne">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link" data-toggle="collapse" data-target="#collapseEducationOne"
+                              aria-expanded="true" aria-controls="collapseEducationOne">
+                              Full Stack Web Development Bootcamp
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapseEducationOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion3">
+                          <div class="card-body">
+                            <ul class="work-list">
+                              <li>2017 – 2018</li>
+                              <li>Burbank CA</li>
+                            </ul>
+                            <p>Intensive 16 week, full-time web development training program, gaining nearly 1500+
+                              hours of intensive coding experience including the implementation, debugging and
+                              deployment of various web projects over 3 full stacks.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card text-center">
+                        <div class="card-header" id="headingThree">
+                          <h5 class="mb-0">
+                            <a id="accordionLinks" class="btn btn-link" data-toggle="collapse" data-target="#collapseEducationThree"
+                              aria-expanded="false" aria-controls="collapseEducationThree">
+                              DeVry Tech
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapseEducationThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion3">
+                          <div class="card-body">
+                            <ul class="work-list">
+                              <li>September 2004 – 2006</li>
+                              <li>West Hills CA</li>
+                            </ul>
+                            <p>Majoring in Computer Information Systems. Attended for two semesters.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="main-footer">
+    Copyright &copy; 2018
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
