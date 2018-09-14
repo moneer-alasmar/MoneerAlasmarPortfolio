@@ -7,9 +7,9 @@
 
 // DESKTOP AND LAPTOP
 @include mediaLg {
-    .apps {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .apps {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 // TABLETS
@@ -23,14 +23,15 @@
       margin-bottom: 1rem;
     }
   }
-  
-  ul.menu-nav, div.menu-branding {
+
+  ul.menu-nav,
+  div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0;
 
     &.show {
-      transform: translate3d(0,0,0);
+      transform: translate3d(0, 0, 0);
     }
   }
 
@@ -53,11 +54,11 @@
 
   .about-info {
     grid-template-areas:
-    'bioimage'
-    'bio'
-    'job1'
-    'job2'
-    'job3';
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
     grid-template-columns: 1fr;
   }
   .apps {
@@ -67,9 +68,18 @@
 
 // SMARTPHONE
 @include mediaSm {
-  main#home h1 {
-    margin-top: 10vh;
+  main {
+    padding: 2rem;
+    #home h1 {
+      margin-top: 10vh;
+    }
+
+    .lg-heading {
+      margin-top: 1rem;
+      font-size: 5rem;
+    }
   }
+
   .apps {
     grid-template-columns: 1fr;
   }
